@@ -32,5 +32,3 @@ fi
 
 echo /start.py "$@"
 /start.py "$@"
-
-python -m synapse.app.homeserver
