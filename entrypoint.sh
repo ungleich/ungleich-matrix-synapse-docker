@@ -28,4 +28,4 @@ else
     echo "Not all variables set, not generating config" >&2
 fi
 
-exec /start.py "$@"
+/start.py "$@"
