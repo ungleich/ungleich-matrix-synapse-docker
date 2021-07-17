@@ -1,6 +1,8 @@
 #!/bin/sh
 # Nico Schottelius, 2021-07-17
 
+set -x
+
 allset=yes
 
 # Check that all required variables are set
@@ -28,4 +30,5 @@ else
     echo "Not all variables set, not generating config" >&2
 fi
 
+echo /start.py "$@"
 /start.py "$@"
