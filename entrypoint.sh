@@ -1,7 +1,7 @@
 #!/bin/sh
 # Nico Schottelius, 2021-07-17
 
-set -x
+echo "Version 0.1"
 
 allset=yes
 
@@ -32,3 +32,5 @@ fi
 
 echo /start.py "$@"
 /start.py "$@"
+
+python -m synapse.app.homeserver
